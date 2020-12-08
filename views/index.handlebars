@@ -1,17 +1,29 @@
-<div class="col-md-12 "
-     id="top-bar">
-   <h1> Sequelize box </h1>
+<!-- main header -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Extra Credit</h1>
+        <p class="lead">A financial management tool.</p>
+    </div>
 </div>
 
-<div class="container">
-   <div class="row">
+<!-- container for all buttons -->
+<div class="btn-container row">
 
+    {{!-- sign up  --}}
+    {{> signUp}}
 
-      {{!-- view cooment  --}}
-      {{> viewComments}}
+    {{!-- my wallet  --}}
+    {{> wallet}}
 
-      {{!-- post comment --}}
-      {{> postComments}}
+    {{!-- perks calculator  --}}
+    {{> perksCalc}}
 
-   </div>
+    {{!-- credit card browser  --}}
+    {{> creditCardBrowser}}
+
+    {{!-- fun facts  --}}
+    {{> funFacts}}
+
 </div>
+
+<footer class="sticky-footer">Copyright Team Extra Credit © 2020</footer>
